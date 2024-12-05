@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>comic</title>
+</head>
+
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../boostrap/bootstrap.css">
+    <link rel="stylesheet" href="../css/selector_de_capitulos.css">
+    <link rel="stylesheet" href="../css/capitulo_1.css">
+    <link rel="stylesheet" href="../css/capitulo_2.css">
+    <title>Fernart</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <!-- medu de navegacion y logo -->
+      <div class="row bg-body-tertiary d-flex justify-content-between align-items-center">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid ">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../assets/picture/logo.png" alt="Logo" class="logo">
+            </a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon light"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end caja p-4 " id="navbarNav">
+              <ul class="navbar-nav d-flex gap-4">
+                <li class="nav-item">
+                  <a class="nav-link text-seconday fw-bold" aria-disabled="true" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-seconday fw-bold active" href="../pages/comic.html">Comic</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- capitulo -->
+      <div class="row d-flex justify-content-center align-items-center m-5">
+        <div class="col-lg-8">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="fondo">
+                  <img src="../assets/img/genesis_Mesa de trabajo 1.png" alt="" class="genesisescena2">
+                  <img src="../assets/img/cama_Mesa de trabajo 1.png" alt="" class="camaescena1">
+                  <img src="../assets/img/juan.png" alt="" class="nino">
+                  <img src="../assets/img/llama_Mesa de trabajo 1.png" alt="" class="llama">
+                  <audio src="../assets/sonido/fuego.mp3" class="fuego"></audio>
+                  <div class="oculto4">
+                    <img src="../assets/img/dialogo2_Mesa de trabajo 1.png" alt="" class="oculto3">
+                  </div>
+                  <div class="oculto">
+                    <img src="../assets/img/dialogo1_Mesa de trabajo 1.png" alt="" class="oculto2">
+                  </div>
+                </div>
+              </div>
+              <!-- escena 2 -->
+              <div class="carousel-item">
+                <div class="fondo2">
+                  <img src="../assets/img/img2/juan.png" class="JUAN2">
+                  <img src="../assets/img/img2//PIES LIBRO MANOS-01-01.png" class="PIESS">
+                  <img src="../assets/img/img2/MANOS.png" alt="" class="MANOS">
+                  <img src="../assets/img/img2/icono.png" alt="" class="icono">
+                  <!--  -->
+                  <div class="esconde1">
+                    <img src="../assets/img/img2/dialogooo 2.png" alt="" class="dialogos1">
+                  </div>
+                  <div class="esconde2">
+                    <img src="../assets/img/img2/dialogooo1.png" alt="" class="dialogos2">
+                  </div>
+                </div>
+              </div>
+              <!-- botones de movimiento -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true" id="btnAdd"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer class="row bg-dark footer">
+        <div class="col d-flex justify-content-center align-items-center">
+          <img src="../assets/picture/Copyright-Symbol-PNG-Picture.png" alt="" class="copy p-2">
+        </div>
+      </footer>
+      <h1 id="num">
+        0
+      </h1>
+    </div>
+  </body>
+  <script src="../boostrap/bootstrap.js"></script>
+  <script src="../js/cap_3.js"></script>
+  <script src="../js/capitulo_1.js"></script>
+  <script src="../js/capitulo_2.js"></script>
+
+  </html>
+</body>
+
+</html>
